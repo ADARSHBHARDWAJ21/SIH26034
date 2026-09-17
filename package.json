@@ -1,0 +1,43 @@
+{
+  "name": "legal-metrology-compliance",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "concurrently \"vite\" \"node server/index.js\"",
+    "dev:ui": "vite",
+    "server": "node server/index.js",
+    "dev:all": "concurrently \"vite\" \"node server/index.js\"",
+    "generate:ppt": "node scripts/generate_ppt.js",
+    "build": "vite build",
+    "lint": "eslint .",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "bcryptjs": "^3.0.3",
+    "canvas-confetti": "^1.9.3",
+    "cors": "^2.8.6",
+    "express": "^5.2.1",
+    "html2canvas": "^1.4.1",
+    "jsonwebtoken": "^9.0.3",
+    "jspdf": "^2.5.1",
+    "lucide-react": "^0.439.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "sqlite3": "^6.0.1",
+    "tesseract.js": "^5.1.0"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4.3.3",
+    "@tailwindcss/vite": "^4.3.3",
+    "@types/react": "^18.3.3",
+    "@types/react-dom": "^18.3.0",
+    "@vitejs/plugin-react": "^4.3.1",
+    "autoprefixer": "^10.5.5",
+    "concurrently": "^10.0.5",
+    "postcss": "^8.5.28",
+    "pptxgenjs": "^4.0.1",
+    "tailwindcss": "^4.3.3",
+    "vite": "^5.4.1"
+  }
+}
