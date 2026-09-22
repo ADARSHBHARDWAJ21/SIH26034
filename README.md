@@ -116,9 +116,8 @@ node -v
 npm -v
 ```
 
-### Step 1: Clone Repository
+### Step 1: Open the project folder
 ```bash
-git clone https://github.com/Abhishek-1087/SIH26034_Legal_Metrology_Compliance.git
 cd SIH26034_Legal_Metrology_Compliance
 ```
 
