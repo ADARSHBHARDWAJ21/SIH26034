@@ -207,7 +207,7 @@ SIH26034_Legal_Metrology_Compliance/
 
 ## 🤝 Authors & Credits
 
-* **Smart India Hackathon (SIH 2024)** — Problem Statement **SIH26034**
+* **Smart India Hackathon (SIH 2026)** — Problem Statement **SIH26034**
 * **Ministry of Consumer Affairs, Food & Public Distribution**, Government of India.
 
 ---
